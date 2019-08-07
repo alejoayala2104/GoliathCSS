@@ -150,15 +150,12 @@
 }
 .list-view
 {
+    -fx-padding: 0;
     -fx-background-color: -fx-theme-background-alt;
 }
-.list-view,  .list-cell
+.list-cell
 {
-    -fx-background-color: -fx-theme-background-alt;
     -fx-text-fill: -fx-theme-highlight-fill;
-    -fx-border-radius: 0;
-    -fx-background-insets: 0;
-
 }
 
 .list-cell:hover
@@ -167,7 +164,8 @@
 }
 .tree-view
 {
-    -fx-border-color: -fx-theme-background-alt;
+    -fx-padding: 0;
+    -fx-background-color: -fx-theme-background-alt;
 }
 /*
         TAB STUFF
@@ -224,8 +222,11 @@
 }
 .table-view
 {
+    -fx-padding: 0;
     -fx-background-color: transparent;
-    -fx-table-cell-border-color: transparent;
+    -fx-background-size: 0;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
 }
 .table-view > .column-header-background
 {
@@ -240,6 +241,10 @@
 .table-view .column-header .label
 {
     -fx-text-fill: -fx-theme-label-text;
+}
+.table-row-cell
+{
+    -fx-table-cell-border-color: transparent;
 }
 .table-cell:selected
 {
@@ -371,6 +376,25 @@
     -fx-border-color: -fx-theme-selected;
     -fx-background-color: -fx-theme-selected;
 }
+.chart-plot-background
+{
+    -fx-background-color: -fx-theme-background;
+}
+.chart
+{
+    -fx-padding: 0;
+}
+.chart-vertical-grid-lines,
+.chart-horizontal-grid-lines
+{
+    -fx-stroke: -fx-theme-background-alt;
+}
+.chart-series-line,
+.default-color0.chart-series-area-line,
+.default-color0.chart-series-area-fill
+{
+    -fx-stroke: -fx-theme-selected;
+}
 .cell
 {
     -fx-background-color: -fx-theme-background-alt;
@@ -411,4 +435,10 @@
 {
     -fx-background-color: -fx-theme-label-text;
     
+}
+.tooltip
+{
+    -fx-background-color: -fx-theme-background-alt;
+     -fx-background-radius: 0;
+     -fx-border-radius: 0;
 }
