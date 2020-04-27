@@ -3,11 +3,11 @@
     -fx-theme-header: #FFFFFF;
     -fx-theme-background: -fx-theme-header;
     -fx-theme-background-alt: #F2F2F2;
-    -fx-theme-selected: #CBEAFF; 
+    -fx-theme-selected: #CBEAFF;
     -fx-theme-label-text: #333333;
     -fx-theme-selectable-hover: #E1E1E1;
     -fx-theme-tab-close-color: -fx-theme-label-text;
-    
+
     -fx-highlight-fill: -fx-theme-selected;
 }
 .title-pane, .title-pane > .label, .menubar
@@ -19,11 +19,11 @@
     -fx-padding: 0;
     -fx-insets: 0;
     -fx-background-insets: 0;
-    -fx-background-radius: 0;     
+    -fx-background-radius: 0;
 }
 .close, .minimize
 {
-    -fx-border-color: -fx-theme-background; 
+    -fx-border-color: -fx-theme-background;
     -fx-border-radius: 1;
 }
 .menu-button:hover
@@ -183,11 +183,11 @@ toggle-button:hover
 {
     -fx-focus-color: transparent;
     -fx-background-color: -fx-theme-selected;
-    -fx-border-color: -fx-theme-selected; 
+    -fx-border-color: -fx-theme-selected;
 }
 .tab-label
 {
-    -fx-text-fill: -fx-theme-label-text;	
+    -fx-text-fill: -fx-theme-label-text;
     -fx-padding-right: 20;
 }
 .tab-close-button
@@ -244,7 +244,7 @@ toggle-button:hover
 .text-field
 {
     -fx-background-color: -fx-theme-background-alt;
-    -fx-text-fill: white;
+    -fx-text-fill: -fx-theme-label-text;
     -fx-background-radius: 0;
 }
 .spinner, .increment-arrow-button, .decrement-arrow-button
@@ -264,11 +264,11 @@ toggle-button:hover
     -fx-background-color: -fx-theme-header;
     -fx-border-radius: 0;
 }
-.split-pane > .split-pane-divider 
+.split-pane > .split-pane-divider
 {
     -fx-background-color: -fx-theme-header;
     -fx-color: -fx-theme-header;
-    
+
 }
 .corner, .table-view .filler
 {
@@ -293,12 +293,12 @@ toggle-button:hover
 .scroll-bar > .thumb
 {
     -fx-background-radius: 0;
-    -fx-background-color: -fx-theme-background; 
+    -fx-background-color: -fx-theme-background;
     -fx-border-color: -fx-theme-background-alt;
 }
 .scroll-bar > .thumb:hover
 {
-    -fx-background-color: -fx-theme-background; 
+    -fx-background-color: -fx-theme-background;
 }
 .scroll-bar > .thumb:pressed
 {
@@ -331,7 +331,7 @@ toggle-button:hover
 }
 .slider > .track
 {
-    -fx-background-color: -fx-theme-background-alt;   
+    -fx-background-color: -fx-theme-background-alt;
 
 }
 .slider > .thumb
