@@ -8,7 +8,7 @@
     -fx-theme-highlight: #3A8000;
     -fx-theme-selectable-hover: #3C3C3C;
     -fx-theme-tab-close-color: #2D2D2D;
-    
+
     -fx-highlight-fill: -fx-theme-selected;
     -fx-text-fill: -fx-theme-label-text;
     -fx-accent: -fx-theme-highlight;
@@ -16,20 +16,20 @@
     -fx-background: -fx-theme-background;
     -fx-mark-color: -fx-theme-selected;
 }
-.title-pane, .title-pane > .label, .menubar
+.title-pane, .title-pane > .label, .menu-bar
 {
     -fx-background-color: -fx-theme-background;
 }
-.menubar
+.menu-bar
 {
     -fx-padding: 0;
     -fx-insets: 0;
     -fx-background-insets: 0;
-    -fx-background-radius: 0;     
+    -fx-background-radius: 0;
 }
 .close, .minimize
 {
-    -fx-border-color: -fx-theme-background; 
+    -fx-border-color: -fx-theme-background;
     -fx-border-radius: 1;
 }
 .menu-button:hover
@@ -81,7 +81,7 @@
 }
 .scroll-pane .corner
 {
-    -fx-border-color: -fx-theme-background; 
+    -fx-border-color: -fx-theme-background;
     -fx-background-radius: 0;
     -fx-border-radius: 0;
 }
@@ -208,11 +208,11 @@
 {
     -fx-focus-color: transparent;
     -fx-background-color: -fx-theme-selected;
-    -fx-border-color: -fx-theme-selected; 
+    -fx-border-color: -fx-theme-selected;
 }
 .tab-label
 {
-    -fx-text-fill: -fx-theme-label-text;	
+    -fx-text-fill: -fx-theme-label-text;
     -fx-padding-right: 20;
 }
 .tab-close-button
@@ -294,12 +294,12 @@
     -fx-background-radius: 0;
     -fx-padding: 0;
 }
-.split-pane > .split-pane-divider 
+.split-pane > .split-pane-divider
 {
     -fx-background-color: -fx-theme-header;
     -fx-color: -fx-theme-header;
     -fx-border-color: transparent -fx-theme-background-alt transparent -fx-theme-background-alt;
-    
+
 }
 .corner, .table-view .filler
 {
@@ -328,7 +328,7 @@
     -fx-background-radius: 20;
     -fx-border-radius: 20;
     -fx-background-insets: 0;
-    -fx-background-color: -fx-theme-background; 
+    -fx-background-color: -fx-theme-background;
     -fx-border-color: -fx-theme-background-alt;
 }
 .scroll-bar > .thumb:pressed
@@ -362,7 +362,7 @@
 }
 .slider > .track
 {
-    -fx-background-color: -fx-theme-background-alt;   
+    -fx-background-color: -fx-theme-background-alt;
 
 }
 .slider > .thumb
@@ -412,12 +412,12 @@
 {
     -fx-background-color: -fx-theme-selected;
 }
-.check-box > .box 
+.check-box > .box
 {
 
     -fx-background-color: -fx-theme-label-text;
     -fx-border-color: transparent;
-    -fx-border-radius: 0; 
+    -fx-border-radius: 0;
     -fx-background-radius: 0;
 
 }
@@ -434,7 +434,7 @@
 .decrement-arrow
 {
     -fx-background-color: -fx-theme-label-text;
-    
+
 }
 .tooltip
 {

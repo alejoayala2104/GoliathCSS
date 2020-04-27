@@ -10,11 +10,11 @@
 
     -fx-highlight-fill: -fx-theme-selected;
 }
-.title-pane, .title-pane > .label, .menubar
+.title-pane, .title-pane > .label, .menu-bar
 {
     -fx-background-color: -fx-theme-background;
 }
-.menubar
+.menu-bar
 {
     -fx-padding: 0;
     -fx-insets: 0;

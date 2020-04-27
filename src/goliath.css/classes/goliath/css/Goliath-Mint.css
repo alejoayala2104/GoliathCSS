@@ -12,24 +12,24 @@
     -fx-theme-background-insets: 0px;
     -fx-theme-background-radius: 0px;
     -fx-theme-border-radius: 0px;
-    
+
     -fx-highlight-fill: -fx-theme-selected;
         -fx-text-fill: -fx-theme-label-text;
 }
-.title-pane, .title-pane > .label, .menubar
+.title-pane, .title-pane > .label, .menu-bar
 {
     -fx-background-color: -fx-theme-background;
 }
-.menubar
+.menu-bar
 {
     -fx-padding: 0;
     -fx-insets: 0;
     -fx-background-insets: 0;
-    -fx-background-radius: 0;     
+    -fx-background-radius: 0;
 }
 .close, .minimize
 {
-    -fx-border-color: -fx-theme-background; 
+    -fx-border-color: -fx-theme-background;
     -fx-border-radius: 1;
 }
 .menu-button:hover
@@ -189,11 +189,11 @@ toggle-button:hover
 {
     -fx-focus-color: transparent;
     -fx-background-color: -fx-theme-selected;
-    -fx-border-color: -fx-theme-selected; 
+    -fx-border-color: -fx-theme-selected;
 }
 .tab-label
 {
-    -fx-text-fill: -fx-theme-label-text;	
+    -fx-text-fill: -fx-theme-label-text;
     -fx-padding-right: 20;
 }
 .tab-close-button
@@ -270,11 +270,11 @@ toggle-button:hover
     -fx-background-color: -fx-theme-header;
     -fx-border-radius: 0;
 }
-.split-pane > .split-pane-divider 
+.split-pane > .split-pane-divider
 {
     -fx-background-color: -fx-theme-header;
     -fx-color: -fx-theme-header;
-    
+
 }
 .corner, .table-view .filler
 {
@@ -299,12 +299,12 @@ toggle-button:hover
 .scroll-bar > .thumb
 {
     -fx-background-radius: 0;
-    -fx-background-color: -fx-theme-background; 
+    -fx-background-color: -fx-theme-background;
     -fx-border-color: -fx-theme-background-alt;
 }
 .scroll-bar > .thumb:hover
 {
-    -fx-background-color: -fx-theme-background; 
+    -fx-background-color: -fx-theme-background;
 }
 .scroll-bar > .thumb:pressed
 {
@@ -337,7 +337,7 @@ toggle-button:hover
 }
 .slider > .track
 {
-    -fx-background-color: -fx-theme-background-alt;   
+    -fx-background-color: -fx-theme-background-alt;
 
 }
 .slider > .thumb
