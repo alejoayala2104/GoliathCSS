@@ -123,12 +123,45 @@
     -fx-background-color: -fx-theme-header;
     -fx-background-radius: 0;
 }
+.text-area
+{   
+    -fx-text-fill: -fx-theme-label-text;
+    
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    
+    -fx-border-width: 0;
+    -fx-border-insets: 0;
+    -fx-border-radius: 0;
+    -fx-border-padding: 0;
+    
+    -fx-border-color: transparent;
+}
+.text-area
+{
+    -fx-text-fill: -fx-theme-label-text;
+}
 .text-area .content
 {
     -fx-background-color: -fx-theme-background-alt;
-    -fx-background-radius: 0;
-    -fx-text-fill: -fx-theme-label-text;
+    
+    -fx-text-box-border: transparent;
+    
+    -fx-background-insets: 0;
+    
+    -fx-border-width: 0;
+    -fx-border-insets: 0;
+    -fx-border-radius: 0;
+    -fx-border-padding: 0;
+    
+    -fx-border-color: transparent;
 }
+.text-area:focused .content
+{
+   -fx-background-color: -fx-theme-background-alt;
+   -fx-border-color: -fx-theme-background-alt; 
+}
+
 /*
         BUTTON
 */
@@ -271,7 +304,7 @@
 .text-field
 {
     -fx-background-color: -fx-theme-background-alt;
-    -fx-text-fill: white;
+    -fx-text-fill: -fx-theme-label-text;
     -fx-background-radius: 0;
 }
 .spinner, .increment-arrow-button, .decrement-arrow-button
