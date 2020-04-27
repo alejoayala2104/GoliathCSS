@@ -12,7 +12,6 @@
     -fx-highlight-fill: -fx-theme-selected;
     -fx-text-fill: -fx-theme-label-text;
     -fx-accent: -fx-theme-highlight;
-    -fx-text-fill: -fx-theme-label-text;
     -fx-background: -fx-theme-background;
     -fx-mark-color: -fx-theme-selected;
 }
@@ -215,7 +214,7 @@
 
 .tab-label {
     -fx-text-fill: -fx-theme-label-text;
-    -fx-padding-right: 20;
+    -fx-padding-right: 20px;
 }
 
 .tab-close-button {
