@@ -1,5 +1,4 @@
-.root
-{
+.root {
     -fx-theme-header: #323232;
     -fx-theme-background: #2D2D2D;
     -fx-theme-background-alt: #232323;
@@ -7,7 +6,7 @@
     -fx-theme-label-text: #FFFFFF;
     -fx-theme-highlight: #3A8000;
     -fx-theme-selectable-hover: #3C3C3C;
-    -fx-theme-tab-close-color: #2D2D2D;
+    -fx-theme-tab-close-color: -fx-theme-background;
 
     -fx-highlight-fill: -fx-theme-selected;
     -fx-text-fill: -fx-theme-label-text;
@@ -15,115 +14,115 @@
     -fx-background: -fx-theme-background;
     -fx-mark-color: -fx-theme-selected;
 }
-.title-pane, .title-pane > .label, .menu-bar
-{
+
+.title-pane, .title-pane > .label, .menu-bar {
     -fx-background-color: -fx-theme-background;
 }
-.menu-bar
-{
+
+.menu-bar {
     -fx-padding: 0;
     -fx-insets: 0;
     -fx-background-insets: 0;
     -fx-background-radius: 0;
 }
-.close, .minimize
-{
+
+.close, .minimize {
     -fx-border-color: -fx-theme-background;
     -fx-border-radius: 1;
 }
-.menu-button:hover
-{
+
+.menu-button:hover {
     -fx-background-color: -fx-theme-selectable-hover;
 }
-.menu-button:showing
-{
+
+.menu-button:showing {
     -fx-background-color: -fx-theme-selected;
 }
-.menu > .label
-{
+
+.menu > .label {
     -fx-text-fill: -fx-theme-label-text;
 }
-.menu-item
-{
+
+.menu-item {
     -fx-background-color: -fx-theme-background;
 }
-.menu-item:hover
-{
+
+.menu-item:hover {
     -fx-background-color: -fx-theme-selectable-hover;
 }
-.menu-item .label
-{
+
+.menu-item .label {
     -fx-text-fill: -fx-theme-label-text;
 }
-.check-menu-item:focused
-{
+
+.check-menu-item:focused {
     -fx-focused-mark-color: -fx-theme-selected;
 }
-.context-menu
-{
+
+.context-menu {
     -fx-background-color: -fx-theme-background;
 }
+
 /*
         PANE STUFF
 */
-.pane, .hbox, .vbox, .grid-pane, .dialog-pane
-{
+.pane, .hbox, .vbox, .grid-pane, .dialog-pane {
     -fx-background-color: -fx-theme-background;
     -fx-border-insets: 0;
     -fx-border-radius: 0;
     -fx-background-radius: 0;
     -fx-padding: 0;
 }
-.scroll-pane
-{
+
+.scroll-pane {
     -fx-background-color: -fx-theme-background;
 }
-.scroll-pane .corner
-{
+
+.scroll-pane .corner {
     -fx-border-color: -fx-theme-background;
     -fx-background-radius: 0;
     -fx-border-radius: 0;
 }
-.label
-{
+
+.label {
     -fx-text-fill: -fx-theme-label-text;
 }
-.titled-pane > .title
-{
+
+.titled-pane > .title {
     -fx-background-color: -fx-theme-header;
     -fx-padding: 8;
     -fx-border-radius: 0;
 }
-.titled-pane > .title:hover
-{
+
+.titled-pane > .title:hover {
     -fx-background-color: -fx-theme-selectable-hover;
-//-fx-color: -fx-theme-background;
+    /* -fx-color: -fx-theme-background;*/
     -fx-border-radius: 0;
 }
-.titled-pane > .title > .text
-{
+
+.titled-pane > .title > .text {
     -fx-text-fill: white;
     -fx-color: white;
 }
-.titled-pane > .content
-{
+
+.titled-pane > .content {
     -fx-border-color: -fx-theme-background;
 }
-.titled-pane > .content > *
-{
+
+.titled-pane > .content > * {
     -fx-padding: 0px;
 }
-.tile
-{
+
+.tile {
     -fx-background-color: -fx-theme-background-alt;
 }
-.tool-bar
-{
+
+.tool-bar {
     -fx-background-color: -fx-theme-header;
     -fx-background-radius: 0;
 }
-.text-area
-{
+
+.text-area {
     -fx-text-fill: -fx-theme-label-text;
 
     -fx-background-insets: 0;
@@ -136,12 +135,12 @@
 
     -fx-border-color: transparent;
 }
-.text-area
-{
+
+.text-area {
     -fx-text-fill: -fx-theme-label-text;
 }
-.text-area .content
-{
+
+.text-area .content {
     -fx-background-color: -fx-theme-background-alt;
 
     -fx-text-box-border: transparent;
@@ -155,8 +154,8 @@
 
     -fx-border-color: transparent;
 }
-.text-area:focused .content
-{
+
+.text-area:focused .content {
     -fx-background-color: -fx-theme-background-alt;
     -fx-border-color: -fx-theme-background-alt;
 }
@@ -165,287 +164,285 @@
         BUTTON
 */
 .button,
-.toggle-button
-{
+.toggle-button {
     -fx-background-radius: 0;
     -fx-background-color: -fx-theme-background-alt;
     -fx-text-fill: -fx-theme-label-text;
 }
+
 .button:hover,
-.toggle-button:hover
-{
+.toggle-button:hover {
     -fx-background-color: -fx-theme-selectable-hover;
 }
-.toggle-button:selected
-{
+
+.toggle-button:selected {
     -fx-background-color: -fx-theme-selected;
 }
-.list-view
-{
+
+.list-view {
     -fx-padding: 0;
     -fx-background-color: -fx-theme-background-alt;
 }
-.list-cell
-{
+
+.list-cell {
     -fx-text-fill: -fx-theme-highlight-fill;
 }
 
-.list-cell:hover
-{
+.list-cell:hover {
     -fx-background-color: -fx-theme-selected;
 }
-.tree-view
-{
+
+.tree-view {
     -fx-padding: 0;
     -fx-background-color: -fx-theme-background-alt;
 }
+
 /*
         TAB STUFF
 */
-.tab-pane
-{
+.tab-pane {
     -fx-tab-min-height: -fx-theme-tab-height;
     -fx-tab-max-height: -fx-theme-tab-height;
     -fx-background-color: -fx-theme-background;
     -fx-color: -fx-theme-background-alt;
 }
-.tab-pane:top, .tab-header-area
-{
+
+.tab-pane:top, .tab-header-area {
     -fx-padding: 0;
 }
-.focus-indicator
-{
+
+.focus-indicator {
     -fx-focus-color: transparent;
     -fx-faint-focus-color: transparent;
 }
-.headers-region, .tab-header-background
-{
+
+.headers-region, .tab-header-background {
     -fx-background-color: -fx-theme-background-alt;
 }
-.tab
-{
+
+.tab {
     -fx-focus-color: transparent;
     -fx-background-insets: 0;
     -fx-background-radius: 0;
     -fx-background-color: -fx-theme-background-alt;
     -fx-border-color: -fx-theme-background-alt;
 }
-.tab:hover
-{
+
+.tab:hover {
     -fx-focus-color: transparent;
     -fx-background-color: -fx-theme-selectable-hover;
     -fx-border-color: -fx-theme-selectable-hover;
 }
-.tab:selected
-{
+
+.tab:selected {
     -fx-focus-color: transparent;
     -fx-background-color: -fx-theme-selected;
     -fx-border-color: -fx-theme-selected;
 }
-.tab-label
-{
+
+.tab-label {
     -fx-text-fill: -fx-theme-label-text;
     -fx-padding-right: 20px;
 }
-.tab-close-button
-{
+
+.tab-close-button {
     -fx-background-color: -fx-theme-tab-close-color;
 
 }
-.table-view
-{
+
+.table-view {
     -fx-padding: 0;
     -fx-background-color: transparent;
     -fx-background-size: 0;
     -fx-background-radius: 0;
     -fx-background-insets: 0;
 }
-.table-view > .column-header-background
-{
+
+.table-view > .column-header-background {
     -fx-border-color: -fx-theme-background;
     -fx-text-fill: -fx-theme-label-text;
 }
-.table-view > .column-header-background > .nested-column-header > .column-header
-{
+
+.table-view > .column-header-background > .nested-column-header > .column-header {
     -fx-background-color: -fx-theme-background;
     -fx-text-fill: -fx-theme-label-text;
 }
-.table-view .column-header .label
-{
+
+.table-view .column-header .label {
     -fx-text-fill: -fx-theme-label-text;
 }
-.table-row-cell
-{
+
+.table-row-cell {
     -fx-table-cell-border-color: transparent;
 }
-.table-cell:selected
-{
+
+.table-cell:selected {
     -fx-background-color: -fx-theme-selected;
 }
-.table-row-cell:selected .table-cell
-{
+
+.table-row-cell:selected .table-cell {
     -fx-background-color: -fx-theme-selected;
 }
-.space
-{
+
+.space {
     -fx-background-color: -fx-theme-background;
 }
-.space-alt
-{
+
+.space-alt {
     -fx-background-color: -fx-theme-background-alt;
 }
-.combo-box
-{
+
+.combo-box {
     -fx-background-color: -fx-theme-background-alt;
     -fx-border-radius: 0;
     -fx-background-radius: 0;
 }
-.text-field
-{
+
+.text-field {
     -fx-background-color: -fx-theme-background-alt;
     -fx-text-fill: -fx-theme-label-text;
     -fx-background-radius: 0;
 }
-.spinner, .increment-arrow-button, .decrement-arrow-button
-{
+
+.spinner, .increment-arrow-button, .decrement-arrow-button {
     -fx-background-color: -fx-theme-background-alt;
     -fx-text-fill: -fx-theme-label-text;
     -fx-background-radius: 0;
 }
-.spinner > .text-field
-{
+
+.spinner > .text-field {
     -fx-background-color: -fx-theme-background-alt;
     -fx-text-fill: -fx-theme-label-text;
     -fx-background-radius: 0;
 }
-.split-pane
-{
+
+.split-pane {
     -fx-background-color: -fx-theme-header;
     -fx-border-insets: 0;
     -fx-border-radius: 0;
     -fx-background-radius: 0;
     -fx-padding: 0;
 }
-.split-pane > .split-pane-divider
-{
+
+.split-pane > .split-pane-divider {
     -fx-background-color: -fx-theme-header;
     -fx-color: -fx-theme-header;
     -fx-border-color: transparent -fx-theme-background-alt transparent -fx-theme-background-alt;
 
 }
-.corner, .table-view .filler
-{
+
+.corner, .table-view .filler {
     -fx-background-color: -fx-theme-background;
     -fx-border-color: -fx-theme-background;
 }
-.scroll-bar
-{
+
+.scroll-bar {
     -fx-background-color: -fx-theme-background-alt;
     -fx-border-color: -fx-theme-background-alt;
 }
-.scroll-bar > .track
-{
+
+.scroll-bar > .track {
     -fx-background-color: -fx-theme-background-alt;
 }
-.scroll-bar > .decrement-button, .scroll-bar > .increment-button
-{
+
+.scroll-bar > .decrement-button, .scroll-bar > .increment-button {
     -fx-background-color: -fx-theme-background-alt;
     -fx-border-color: -fx-theme-background-alt;
     -fx-background-radius: 0;
     -fx-background-insets: 0;
     -fx-border-radius: 0;
 }
-.scroll-bar > .thumb
-{
+
+.scroll-bar > .thumb {
     -fx-background-radius: 20;
     -fx-border-radius: 20;
     -fx-background-insets: 0;
     -fx-background-color: -fx-theme-background;
     -fx-border-color: -fx-theme-background-alt;
 }
-.scroll-bar > .thumb:pressed
-{
+
+.scroll-bar > .thumb:pressed {
     -fx-background-color: -fx-theme-selected;
 }
-.label
-{
+
+.label {
     -fx-text-fill: -fx-theme-label-text;
 }
-.titled-pane > .title
-{
+
+.titled-pane > .title {
     -fx-background-color: -fx-theme-background-alt;
     -fx-color: -fx-theme-background;
     -fx-border-radius: 0;
     -fx-text-fill: -fx-theme-label-text;
 }
-.titled-pane > .title:hover
-{
+
+.titled-pane > .title:hover {
     -fx-background-color: -fx-theme-background-alt;
     -fx-color: -fx-theme-background;
     -fx-border-radius: 0;
     -fx-text-fill: -fx-theme-label-text;
 }
-.titled-pane > .title:selected
-{
+
+.titled-pane > .title:selected {
     -fx-background-color: -fx-theme-background-alt;
     -fx-color: -fx-theme-background;
     -fx-border-radius: 0;
     -fx-text-fill: -fx-theme-label-text;
 }
-.slider > .track
-{
+
+.slider > .track {
     -fx-background-color: -fx-theme-background-alt;
 
 }
-.slider > .thumb
-{
+
+.slider > .thumb {
     -fx-border-radius: 20;
     -fx-border-color: -fx-theme-background-alt;
     -fx-background-color: -fx-theme-background;
 }
-.slider > .thumb:pressed
-{
+
+.slider > .thumb:pressed {
     -fx-border-color: -fx-theme-selected;
     -fx-background-color: -fx-theme-selected;
 }
-.chart-plot-background
-{
+
+.chart-plot-background {
     -fx-background-color: -fx-theme-background;
 }
-.chart
-{
+
+.chart {
     -fx-padding: 0;
 }
+
 .chart-vertical-grid-lines,
-.chart-horizontal-grid-lines
-{
+.chart-horizontal-grid-lines {
     -fx-stroke: -fx-theme-background-alt;
 }
+
 .chart-series-line,
 .default-color0.chart-series-area-line,
-.default-color0.chart-series-area-fill
-{
+.default-color0.chart-series-area-fill {
     -fx-stroke: -fx-theme-selected;
 }
-.cell
-{
+
+.cell {
     -fx-background-color: -fx-theme-background-alt;
     -fx-text-fill: -fx-theme-label-text;
 }
-.cell:odd
-{
+
+.cell:odd {
     -fx-background-color: -fx-theme-background-alt;
 }
-.cell:hover
-{
+
+.cell:hover {
     -fx-background-color: -fx-theme-selectable-hover;
 }
-.cell:selected
-{
+
+.cell:selected {
     -fx-background-color: -fx-theme-selected;
 }
-.check-box > .box
-{
+
+.check-box > .box {
 
     -fx-background-color: -fx-theme-label-text;
     -fx-border-color: transparent;
@@ -453,23 +450,23 @@
     -fx-background-radius: 0;
 
 }
-.check-box:selected > .box > .mark
-{
+
+.check-box:selected > .box > .mark {
     -fx-background-color: -fx-theme-selected;
 }
-.check-box > .box > .mark
-{
+
+.check-box > .box > .mark {
     -fx-background-color: -fx-theme-label-text;
 }
+
 .arrow,
 .increment-arrow,
-.decrement-arrow
-{
+.decrement-arrow {
     -fx-background-color: -fx-theme-label-text;
 
 }
-.tooltip
-{
+
+.tooltip {
     -fx-background-color: -fx-theme-background-alt;
     -fx-background-radius: 0;
     -fx-border-radius: 0;
