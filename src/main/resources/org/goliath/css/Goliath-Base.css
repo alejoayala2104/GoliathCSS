@@ -79,7 +79,7 @@
 
 .titled-pane > .title:hover {
     -fx-background-color: -fx-theme-selectable-hover;
-/ / -fx-color: -fx-theme-background;
+    -fx-color: -fx-theme-background;
     -fx-border-radius: 0;
 }
 
