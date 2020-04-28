@@ -1,4 +1,5 @@
 .root {
+    -fx-theme-padding: 100px;
     -fx-theme-insets: 0px;
     -fx-theme-background-insets: 0px;
     -fx-theme-background-radius: 0px;
@@ -6,6 +7,37 @@
 }
 
 .title-pane, .title-pane > .label, .menu-bar {
+    -fx-background-color: -fx-theme-background;
+}
+
+.date-picker > .arrow-button {
+    -fx-background-color: -fx-theme-selected;
+    -fx-background-radius: 0;
+    -fx-text-fill: -fx-theme-selected;
+    -fx-border-width: 1;
+    -fx-border-color: -fx-theme-background-alt;
+}
+
+.date-picker, .date-picker > .text-field {
+    -fx-background-color: -fx-theme-background-alt;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.date-picker, .date-picker .date-picker-display-node, .combo-box-base .date-picker {
+    -fx-border-width: 1;
+    -fx-border-color: -fx-theme-background-alt;
+}
+
+.date-picker-popup > * > .today {
+    -fx-background-color: -fx-theme-selected;
+}
+
+.date-picker-popup > .month-year-pane {
+    -fx-background-color: -fx-theme-selected;
+}
+
+.date-picker-popup > .calendar-grid {
     -fx-background-color: -fx-theme-background;
 }
 
